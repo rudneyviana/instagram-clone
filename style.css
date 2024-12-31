@@ -2,8 +2,10 @@
     --branco: #FFFFFF;
     --cinza-claro: #FAFAFA;
     --cinza: #DBDBDB;
+    --cinza-escuro: #737373;
     --azul: #0095f6;
     --azul-escuro: #00376B;
+    color-scheme: light dark;
 }
 
 * {
@@ -201,4 +203,28 @@ footer ul {
 footer ul a {
     text-decoration: none;
     margin: 0 10px;
+    color: var(--cinza-escuro);
+    font-size: 12px;
+}
+
+footer ul a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin: 24px 0;
+    font-size: 12px;
+    color: var(--cinza-escuro);
+}
+
+.copyright select {
+    font-size: 12px;
+    color: var(--cinza-escuro);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.copyright p {
+    margin-left: 16px;
 }
