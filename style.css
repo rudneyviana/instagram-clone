@@ -28,7 +28,7 @@ body {
     /* min-height: 100vh; */
 }
 
-.screenshot {
+.container-phone {
     grid-column: 1 / 2;
     grid-row: 1 / 6;
     display: flex;
@@ -37,9 +37,20 @@ body {
     width: 100%;
 }
 
-.screenshot img {
+.phone-mockup {
+    width: 375px;
     height: 581.15px;
     margin: 35px 16px 0 0;
+    background-image: url(./images/phone-mockup-1-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.phone-mockup img {
+    position: absolute;
+    right: 16px;
+    bottom: 15px;
 }
 
 main {
